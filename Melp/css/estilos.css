@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Athiti';font-size: 22px;
+	background: rgba(242,242,242);
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: rgba(42,42,42);
+	color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+.contenedor{
+	width: 98%;
+	margin: auto;
+}
+#let {
+	width: 80px;
+	height: auto;
+	margin: 6px 8px;
+	float: left;
+}
+header .contenedor{
+	display: table;
+}
+section{
+	width: 100%;
+}
+#ace h1{
+	text-align: center;
+	margin-top: 40px;
+}
+#ace p{
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 20px;
+}
+footer .contenedor{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #000;
+	float: left;
+	color: #fff;
+}
+.copy{
+	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.sociales{ 
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+.sociales a {
+	color: #333;
+	text-decoration: none;
+	margin: 70px 30px;
+	box-sizing: border-box;
+}
+@media (min-width: 1024px){
+	header{
+		background: rgba(0,0,0,0);
+	}
+	.contenedor{
+		width: 1200px;
+	}
+	#ace h1{
+		margin-top: 100px;
+	}
+	#ace p{
+		padding: 10px 170px;
+	}
+	footer .contenedor{
+		width: 100%;
+	}
+}

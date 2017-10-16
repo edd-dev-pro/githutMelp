@@ -1,0 +1,31 @@
+#blog h2{
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+#blog .contenedor{
+	display: inline-flex; /*img en una sola linea*/
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#blog img{
+	width: 100%;
+	min-width: 285px;
+}
+#blog h4{
+	text-align: center;
+	position: absolute;
+	float: initial;
+}
+@media (min-width: 1024px){
+	#blog h2{
+		margin-top: 150px;
+	}
+	#blog img{
+		width: 33.3%;
+		height: auto;
+		float: left;
+		position: relative;
+		margin-bottom: 80px;
+	}
+}

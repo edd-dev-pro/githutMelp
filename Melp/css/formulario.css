@@ -1,0 +1,23 @@
+#form{
+	background: rgba(42,42,42);
+	color: #fff;
+	text-align: center;
+	
+}
+#form .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#info-form{
+	margin: 20px;
+}
+#info-form img{
+	width: 180px;
+	height: auto;
+}
+@media (min-width: 1024px);{
+	#form h3{
+		margin-top: 50px;
+	}
+}

@@ -1,0 +1,31 @@
+#banner{
+	 margin-top: 0px;
+	 position: relative;
+}
+#banner img{
+	width: 100%;
+	height: auto;
+}
+#dos{
+	display: none;
+}
+#banner .contenedor{
+	position: absolute; 
+	top: 20%;
+	left: 2%;	
+	/*transform: translateX() translateY();*/
+}
+@media (min-width: 1024px){
+	#dos{
+		display: block;
+	}
+	#uno{
+		display: none;
+	}
+	#banner .contenedor img{
+		display: none;
+		position: absolute; 
+		top: 20%;
+		left: 2%;	
+	}
+}
